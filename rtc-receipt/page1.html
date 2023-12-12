@@ -1,0 +1,164 @@
+<html>
+    <head>
+        <title>Create Invoice Bill </title>
+    </head>
+    <style>
+    body{
+        background-color: #eeeee4;
+    }
+    .text-center{
+      text-align: center;
+    }
+      .receipt-container{
+        width: 80%;
+        border: 1px solid gray;
+        margin: 0 auto;
+        background-color: white;
+        padding: 10px;
+        border-radius:5px;
+        box-shadow: 0 0 10px rgba(0, 0,  0, 2);
+      }
+      .receipt-header{
+        border-bottom:1px dashed gray;
+      }
+      .brand-logo{
+        width: 100px;
+        display: block;
+        margin: 0 auto;
+      }
+      .brand-tile{
+        
+        font-size: 1.5rem;
+        font-weight: 300;
+      }
+      .brand-address{
+        text-align: right;
+      }
+      .brand-Mobile{
+        text-align: right;
+      }
+      .reciept-title{
+        
+        font-size: 30px;
+        margin: 30px 0 ;
+      }
+      .receipt-body{
+        position: relative;
+        border-bottom: 1px dashed grey;
+        
+      }
+      .reciept-deatail{
+        font-size: 20px;
+        display: flex;
+        justify-content:center ;
+        margin: 25px;
+      }
+      .reciept-deatail-key{
+        color:gray ;
+        width: 30%;
+
+      }
+      .reciept-deatail-value{
+        font-weight: bold;
+        border-bottom: 1px dashed grey ;
+        width: 50%;
+
+      }
+      .accountant-signature{
+        text-align: right;
+        margin-top: 100px;
+      }
+      .stamp{
+        width: 100px;
+        position: absolute;
+        right: 15px;
+        bottom: 100px;
+        transform: rotate(10deg);
+      }
+     .receipt-footer{
+      
+      padding: 20px 0;
+      font-size: 20px;
+      background-color: #ffc93c;
+     }
+    </style>
+     <body>
+        <div class="receipt-container">
+            
+             <div class="receipt-header">
+                <img src="download.png" class="brand-logo"/>
+                <h2 class="brand-tile  text-center">Rode To Code</h2>   
+       
+                <p class="brand-address">
+                    404 , Above Lotus Hospital,<br/> Shewalewadi ,<br/> Pune - 425001.
+                </p>
+                  <p class="brand-Mobile">
+                    +91-9172319749
+                  </p>  
+
+             </div>
+          
+
+
+             <div class="receipt-body">
+                 <h3 class="reciept-title text-center">
+                  Payment Receipt
+                 </h3>
+            
+              <div class="reciept-deatail">
+                <div class="reciept-deatail-key">
+                    Receipt No . : 
+                </div>
+             
+                <div class="reciept-deatail-value">
+                    123468866955
+                 </div> 
+               </div>
+
+               <div class="reciept-deatail">
+                <div class="reciept-deatail-key">
+                    Payment Date  . : 
+                </div>
+             
+                <div class="reciept-deatail-value">
+                    12 Dec 2023
+                 </div> 
+               </div>
+
+               <div class="reciept-deatail">
+                <div class="reciept-deatail-key">
+                    Amount : 
+                </div>
+             
+                <div class="reciept-deatail-value">
+                    15000 /-
+                 </div> 
+               </div>
+
+
+               <div class="reciept-deatail">
+                <div class="reciept-deatail-key">
+                    Payment Mode : 
+                </div>
+             
+                <div class="reciept-deatail-value">
+                     GPay
+                 </div> 
+               </div>
+               <img src="./stamp.png"  class="stamp"/>
+
+               <p class="accountant-signature">
+                Accountant Singnature  
+                <br/><br/><br/><br/>           
+               </p>
+
+
+               <p>This is a computer generated receipt does not required any singnature ... </p>
+             </div>
+             <div class="receipt-footer  text-center">
+              <p>Thak you for your payment</p>
+             </div>
+
+          </div>
+    </body>
+</html>
